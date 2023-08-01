@@ -1,4 +1,4 @@
-# v2.0
+# v2.0 by dEEpEst 
 
 # Keyboard Logger with Log Sending to Discord 
 
@@ -56,14 +56,19 @@ This project is licensed under the *MIT License*. Please see the LICENSE file in
 
 By using or modifying this code, you are agreeing to comply with the terms and conditions of this license. The MIT License is a permissive open source license that allows for reuse of the licensed material under certain conditions, primarily that the original copyright notice and disclaimer are retained and included with any distribution or publication of the material.
 
+## Link:
+Visit [Level23HackTools](https://level23hacktools.com) for more information on hacking and computer security.
+
+Enjoy using the app!
+
 ---
-# v1.0
+# v1.0 by dEEpEst 
 
 # KeyloogerBasic
 
 Keylogger written in Python
 
-# Description:
+## Description:
 
 This code is a simple keylogger that records the keys you press on your keyboard and keep them in a file called 'log.txt'. Below is what each part of the code does:
 
